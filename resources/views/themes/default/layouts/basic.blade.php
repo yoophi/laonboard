@@ -13,12 +13,17 @@
 <link rel="stylesheet" type="text/css" href="{{ ver_asset('bootstrap/css/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ ver_asset('font-awesome/css/font-awesome.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ ver_asset('themes/default/css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ ver_asset('font-awesome/css/font-awesome.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ ver_asset('MaterialIcons/css/material-icons.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ ver_asset('themes/default/css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ ver_asset('vendor/select2/css/select2.min.css') }}">
 @yield('include_css')
 @if(cache('config.homepage')->analytics)
 {!! cache('config.homepage')->analytics !!}
 @endif
 <script src="{{ ver_asset('js/jquery-3.1.1.min.js') }}"></script>
 <script src="{{ ver_asset('js/common.js') }}"></script>
+
 <script>
     window.Laravel = {!! json_encode([
         'csrfToken' => csrf_token(),
