@@ -192,30 +192,6 @@ body {
     }
 }
 
-/* footer */
-#footer {
-    width: 100%;
-    margin-top: 70px;
-    border-top: 1px solid #d8d8d8;
-    color: #999;
-    background-color: #fff;
-}
-#ft_copy {
-    padding: 20px 0;
-    background: #333;
-    color: #fff
-    font-size: 13px;
-    margin-left: -5px;
-}
-#ft_copy a {
-    font-size: 13px;
-    color: #fff;
-    margin: 0 5px;
-}
-#ft_copy .copy {
-    margin: 25px 5px 0;
-    line-height: 1.7;
-}
 .upbtn {
     position: fixed;
     width: 50px;
