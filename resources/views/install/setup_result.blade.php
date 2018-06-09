@@ -37,14 +37,4 @@
     </div>
     @endif
 </div>
-<script>
-function frm_submit(f)
-{
-    if (!f.agree.checked) {
-        alert("라이센스 내용에 동의하셔야 설치가 가능합니다.");
-        return false;
-    }
-    return true;
-}
-</script>
 @endsection
